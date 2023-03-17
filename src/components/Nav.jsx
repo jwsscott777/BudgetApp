@@ -7,7 +7,7 @@ const Nav = ({ userName }) => {
     <nav>
         <NavLink to="/" aria-label="Home">
         <img src={logomark} alt="logo" height={30} />
-        <span>Budget</span>
+        <span>James & Monica's Budget</span>
         </NavLink>
       {
         userName && (
